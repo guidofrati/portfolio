@@ -1,0 +1,16 @@
+[
+  {
+    "title": "PayPort",
+    "description": "It is a web platform that facilitates the management and distribution of payroll receipts between employers and employees. Employers can upload and share receipts and notices, while employees can review and give their consent to the receipts. In this project, I was responsible for working on the frontend. I implemented the login functionality and created the component where all pending, rejected, and signed receipts are displayed. ",
+    "image": "/payport.jpg",
+    "code": "",
+    "url": "https://pay-port.vercel.app/"
+  },
+  {
+    "title": "InstaChef",
+    "description": "InstaChef is an online food restaurant designed to provide you with the best experience when ordering fast food online, featuring an intuitive interface from authentication to the payment gateway. This was the final project that we had to complete as a group in the SoyHenry bootcamp. During the course of this project, I worked on loading products and their models, handling order messages sent to the email, and addressing some details to adjust the design.",
+    "image": "/instacheff.png",
+    "code": "https://github.com/FrancoInca/InstaChef-Front",
+    "url": "https://insta-chef.vercel.app/"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "JavaScript",
+    "logo": "/jslogo.png"
+  },
+  {
+    "name": "Node JS",
+    "logo": "/nodejs.png"
+  },
+  {
+    "name": "React",
+    "logo": "/react.png"
+  },
+  {
+    "name": "Redux",
+    "logo": "/redux.png"
+  },
+  {
+    "name": "NextJS",
+    "logo": "/nextjs.png"
+  },
+  {
+    "name": "Postgresql",
+    "logo": "/psql.png"
+  }
+]
