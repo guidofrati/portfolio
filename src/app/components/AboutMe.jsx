@@ -14,7 +14,7 @@ function AboutMe() {
     <div className="flex h-screen w-full flex-col p-10">
       <div className="flex h-2/4 w-full flex-col justify-evenly">
         <h1 className="text-5xl text-letra underline">About me</h1>
-        <p className="text-gris text-4xl font-light">
+        <p className="text-4xl font-light text-gris">
           My focus is on building robust applications that inspire and simplify
           people's lives. With a continuous learning mindset, I am always
           exploring new technologies. I believe in the importance of
@@ -36,7 +36,7 @@ function AboutMe() {
             alt="henry"
             className="rounded-xl p-4"
           ></Image>
-          <h1 className="text-gris text-xl">SoyHenry</h1>
+          <h1 className="text-xl text-gris">SoyHenry</h1>
         </div>
       </div>
     </div>
