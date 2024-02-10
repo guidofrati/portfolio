@@ -11,9 +11,9 @@ function CardProyect({ info }) {
       <div className="flex w-3/4 justify-end p-4">
         <div className="flex  flex-col items-end space-y-2">
           <h1 className="text-5xl text-letra">{info.title}</h1>
-          <p className="text-gris text-2xl font-thin">{info.description}</p>
+          <p className="text-2xl font-thin text-gris">{info.description}</p>
           <IconContext.Provider value={{ color: "#D66853", size: "40px" }}>
-            <div className="flex h-auto flex-row justify-end space-x-4">
+            <div className="h-5/5 flex flex-row justify-end space-x-4">
               <Link href={info.url}>
                 <IoMdLink />
               </Link>

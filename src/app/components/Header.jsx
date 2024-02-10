@@ -27,7 +27,7 @@ function Header() {
             </Link>
           </div>
           <div className="flex h-10 w-32 items-center justify-center rounded-r-md bg-carta bg-opacity-70">
-            <Link href="/cv.pdf">
+            <Link href="/CurriculumVitae.pdf">
               <h1 className="rounded-md bg-blanco text-2xl font-medium text-black">
                 CV
               </h1>
