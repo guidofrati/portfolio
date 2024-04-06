@@ -11,10 +11,14 @@ function HabilitiesCard({ info }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className={`relative ${isHovered ? "blur-sm filter" : ""}`}>
-        <img src={info.logo} alt={info.name} className="h-40 rounded-xl" />
+        <img
+          src={info.logo}
+          alt={info.name}
+          className="w-30 h-20 rounded-xl lg:h-40"
+        />
       </div>
       {isHovered && (
-        <h1 className="-translate-x-2/2 -translate-y-2/2 text-gris absolute mt-2 transform rounded-md bg-fondo p-2 text-center text-2xl">
+        <h1 className="-translate-x-2/2 -translate-y-2/2 absolute mt-2 transform rounded-md bg-fondo p-2 text-center text-base text-gris lg:text-2xl">
           {info.name}
         </h1>
       )}
